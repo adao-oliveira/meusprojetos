@@ -1,0 +1,68 @@
+body {
+    padding: 10px;
+    background-color:black;
+}
+
+h1 {
+    text-align: center;
+    background-image: url(../imagens/logo-playcode.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: center;
+}
+
+h1 span {
+    visibility: hidden;
+}
+
+h3 {
+    color: #fcb736;
+    text-align: center;
+    margin-right: center;
+    font-size: 30px;
+}
+
+.card {
+    margin-bottom: 30px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card img:hover {
+    border: 2px solid #fcb736;
+    display: block;
+    border-radius: 5px;
+}
+
+.card h2 {
+    margin: 0;
+    color: #A9A9A9;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+}
+
+.card h2:hover {
+    color: #fcb736;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media (min-width: 500px) {
+    .container {
+        width: 960px;
+        margin: 0 auto;
+    }
+    .card {
+        width: 300px;
+        padding-right: 20px;
+        float: left;
+    }
+}

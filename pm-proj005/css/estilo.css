@@ -1,0 +1,48 @@
+body {
+    background-color: #9b9b9b;
+    padding: 45px;
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+table {
+    background-color: #fff;
+    width: 100%;
+    border-spacing: 0;
+}
+
+table caption {
+    background-color: #fff;
+    text-align: left;
+    padding: 20px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+table thead th {
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+table td, table th {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+tfoot td {
+    text-align: right;
+    color: #9b9b9b;
+}
+
+tbody td:first-child, thead th:first-child {
+    text-align: center;
+    width: 40px;
+}
+
+tbody tr:hover {
+    background-color: #eeeeee;
+}
